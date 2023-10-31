@@ -1,47 +1,51 @@
-# Path to Profession
+# Data Folder
 
-**Project Description**
+This folder, named "data," is used to store all the scraped job market data obtained from Naukri.com by the "Path to Profession" project. It serves as a repository for historical job market information and includes a daily sample of scraped data.
 
-"Path to Profession" is a powerful tool designed to help users map the demographic of the job market and generate sample resumes based on the job market's specific demographics. It employs cutting-edge technologies like Selenium, Beautiful Soup, NLTK, BERT models, and other tools to analyze the job market and offer relevant skills recommendations.
+## Structure
 
-## Table of Contents
+- The `data` folder is organized by job roles, with each subfolder representing a specific role.
+- Within each subfolder, you'll find CSV files that contain job listings and details for that particular role.
+- A new CSV file is generated each day to store a sample of the scraped data, allowing you to track job market changes over time.
 
-1. [**Introduction**](#introduction)
-2. [**Features**](#features)
-3. [**Prerequisites**](#prerequisites)
-4. [**Installation**](#installation)
-5. [**Usage**](#usage)
-6. [**Technologies Used**](#technologies-used)
-7. [**How It Works**](#how-it-works)
-8. [**Sample Output**](#sample-output)
-9. [**Contributing**](#contributing)
-10. [**License**](#license)
+## Sample Data
 
-## Introduction
+- A sample CSV file, named with the date of scraping (e.g., `2023-11-01.csv`), is available in each subfolder. This file contains data from a specific day and can be used for analysis, reporting, or historical reference.
 
-**"Path to Profession"** is a **powerful tool** to assist job seekers by extracting job market data from the internet, analyzing job market demographics, and generating sample resumes customized to the job market's specific demographics. It utilizes various technologies and NLP techniques to provide in-depth insights into relevant job skills.
+## Data Files
 
-## Features
+The data files within each subfolder typically include details such as:
 
-- **Web scraping capabilities** using **Selenium** and **Beautiful Soup**.
-- **Demographic analysis** of the job market.
-- **Skills recommendation** based on **BERT model** analysis.
-- **Resume generation** tailored to job market demographics.
+- Company names
+- Job roles
+- Salaries
+- Experience requirements
+- Locations
+- Job descriptions
+- Skills required
+- Qualifications
+- Industry types
+- Functional areas
+- Employment types
+- Role categories
 
-## Prerequisites
+## Usage
 
-Before you begin, ensure you have met the following requirements:
+You can use the data stored in this folder for various purposes, including:
 
-- **Python 3.x**
-- Required Python packages (Selenium, Beautiful Soup, NLTK, BERT models; list them and provide installation instructions).
-- **BERT model weights and configurations** (provide instructions for downloading or setting up).
+- Analyzing the job market trends for specific roles in Bangalore.
+- Monitoring changes in salaries, job requirements, and more over time.
+- Generating reports or insights based on historical data.
+- Customizing your job search strategy based on the information available.
 
-## Installation
+## Data Management
 
-To install and run "Path to Profession," follow these steps:
+It's essential to manage the data in this folder regularly. Here are some recommended practices:
 
-1. **Clone the repository:**
+- Periodically clean up old or outdated data files to conserve disk space.
+- Consider implementing a data backup strategy to ensure data preservation.
+- Use data from the "sample" files to analyze historical trends and patterns.
 
-   ```bash
-   git clone https://github.com/your-username/path-to-profession.git
-   cd path-to-profession
+Please note that while this data can provide valuable insights, it's crucial to respect privacy and usage terms of the websites from which it is scraped.
+
+Feel free to explore and utilize the data stored in this folder to enhance your understanding of the job market for different roles in Bangalore.
